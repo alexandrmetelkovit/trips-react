@@ -1,0 +1,45 @@
+.card__wrapper {
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.gallery-card_img {
+  height: 500px;
+}
+
+.card-label {
+  position: absolute;
+  display: flex;
+  left: 40px;
+  top: 40px;
+}
+
+.card-label_transport {
+  padding: 15px 20px 15px 20px;
+  border-radius: 100px;
+  background: rgb(255, 245, 157);
+  font-weight: 700;
+}
+
+.card-label-passengers {
+  border-radius: 100px;
+  background: rgb(255, 245, 157);
+  padding: 15px 20px 15px 20px;
+  font-weight: 700;
+  display: flex;
+  gap: 3px;
+}
+
+.card-label_img {
+  width: 16px;
+  height: 16px;
+}
+
+.text__tour {
+  position: absolute;
+  max-width: 600px;
+  left: 40px;
+  bottom: 40px;
+  color: rgb(255, 254, 244);
+  font-size: 45px;
+}
