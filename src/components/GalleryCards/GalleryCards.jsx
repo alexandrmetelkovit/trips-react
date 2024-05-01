@@ -53,12 +53,12 @@ function GalleryCards() {
       {cards.map((cards) => (
         <GalleryCard
           image={cards.image}
-          isPassengers={cards.isPassengers}
           transport={cards.transport}
           passengers={cards.passengers}
           country={cards.country}
           month={cards.month}
           value={cards.value}
+          isPassengers={cards.isPassengers}
         />
       ))}
     </>
